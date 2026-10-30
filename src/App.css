@@ -1,38 +1,113 @@
-.App {
+/* App.css */
+
+.contenedor-app {
+
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Cambia tu tipografía aquí */
+
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Estilos del Menú */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.menu-navegacion {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #556B2F; /* Cambia por tu color principal */
+
   color: white;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 10px 50px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.menu-navegacion ul {
+
+  list-style: none;
+
+  display: flex;
+
+  gap: 20px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilos de la Sección Principal */
+
+.seccion-principal {
+
+  padding: 50px 20px;
+
+  background-color: #F5F1E8; /* Cambia por tu color de fondo */
+
+}
+
+.imagen-destacada {
+
+  border-radius: 15px;
+
+  margin: 20px 0;
+
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+
+}
+
+/* Botón con efecto Hover */
+
+.boton-accion {
+
+  background-color: #A3B18A; /* Cambia el color del botón */
+
+  border: none;
+
+  padding: 12px 24px;
+
+  font-size: 16px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+.boton-accion:hover {
+
+  background-color: #7F5539; /* Color cuando el ratón pasa por encima */
+
+  transform: scale(1.05);
+
+}
+
+.mensaje-sorpresa {
+
+  margin-top: 20px;
+
+  font-size: 18px;
+
+  color: #556B2F;
+
+  font-weight: bold;
+
+}
+
+/* Estilos del Footer */
+
+.pie-pagina {
+
+  background-color: #556B2F; /* Color del footer */
+
+  color: white;
+
+  padding: 20px;
+
+  margin-top: 40px;
+
 }
